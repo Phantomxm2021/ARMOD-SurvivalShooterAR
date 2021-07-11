@@ -1,0 +1,19 @@
+{
+    "name": "SurvivalShooter.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d445613d091ffc941ae68355f01656f6",
+        "GUID:f472ae737a280fe4cbdf5b14dbbf9fcc",
+        "GUID:8e4b22805b128544c875816e5bb32c91",
+        "GUID:559c5067f03d0442fb31fe61e83230a2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
