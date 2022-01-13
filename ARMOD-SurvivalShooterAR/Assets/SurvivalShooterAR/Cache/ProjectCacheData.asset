@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4029915818181559482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3810b02e13a54ea6947542622a22e9aa, type: 3}
+  m_Name: BuildSettingData
+  m_EditorClassIdentifier: 
+  BuildTargetGroup: 7
+  BuildTarget: 13
+  BuildCompression: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50b903e99cad4e0db9a5bf75fdfa955b, type: 3}
+  m_Name: ProjectCacheData
+  m_EditorClassIdentifier: 
+  DetailCacheData:
+    Id: 0
+    Configures: {fileID: 1790496654422121242}
+    BuildSettingData: {fileID: -4029915818181559482}
+    Contents:
+    - Id: 0
+      DisplayName: CanvasGroup
+      AssetPathInUnity: Assets/SurvivalShooterAR/Artwork/Prefabs/CanvasGroup.prefab
+      Type: GameObject
+    - Id: 1
+      DisplayName: FocusGroup
+      AssetPathInUnity: Assets/SurvivalShooterAR/Artwork/Prefabs/FocusGroup.prefab
+      Type: GameObject
+    - Id: 2
+      DisplayName: Hellephant
+      AssetPathInUnity: Assets/SurvivalShooterAR/Artwork/Prefabs/Hellephant.prefab
+      Type: GameObject
+    - Id: 3
+      DisplayName: MoveableTop
+      AssetPathInUnity: Assets/SurvivalShooterAR/Artwork/Prefabs/MoveableTop.prefab
+      Type: GameObject
+    - Id: 4
+      DisplayName: Player
+      AssetPathInUnity: Assets/SurvivalShooterAR/Artwork/Prefabs/Player.prefab
+      Type: GameObject
+    - Id: 5
+      DisplayName: SignProjector
+      AssetPathInUnity: Assets/SurvivalShooterAR/Artwork/Prefabs/SignProjector.prefab
+      Type: GameObject
+    - Id: 6
+      DisplayName: SurvivalShooter
+      AssetPathInUnity: Assets/SurvivalShooterAR/Artwork/Prefabs/SurvivalShooter.prefab
+      Type: GameObject
+    - Id: 7
+      DisplayName: ZomBear
+      AssetPathInUnity: Assets/SurvivalShooterAR/Artwork/Prefabs/ZomBear.prefab
+      Type: GameObject
+    - Id: 8
+      DisplayName: ZomBunny
+      AssetPathInUnity: Assets/SurvivalShooterAR/Artwork/Prefabs/ZomBunny.prefab
+      Type: GameObject
+    - Id: 9
+      DisplayName: ZomBear Death
+      AssetPathInUnity: Assets/SurvivalShooterAR/Artwork/AudioClips/ZomBear Death.wav
+      Type: AudioClip
+    - Id: 10
+      DisplayName: ZomBear Hurt
+      AssetPathInUnity: Assets/SurvivalShooterAR/Artwork/AudioClips/ZomBear Hurt.wav
+      Type: AudioClip
+    - Id: 11
+      DisplayName: ZomBunny Death
+      AssetPathInUnity: Assets/SurvivalShooterAR/Artwork/AudioClips/ZomBunny Death.wav
+      Type: AudioClip
+    - Id: 12
+      DisplayName: ZomBunny Hurt
+      AssetPathInUnity: Assets/SurvivalShooterAR/Artwork/AudioClips/ZomBunny Hurt.wav
+      Type: AudioClip
+    - Id: 13
+      DisplayName: Player GunShot
+      AssetPathInUnity: Assets/SurvivalShooterAR/Artwork/AudioClips/Player GunShot.wav
+      Type: AudioClip
+    - Id: 14
+      DisplayName: Player Hurt
+      AssetPathInUnity: Assets/SurvivalShooterAR/Artwork/AudioClips/Player Hurt.wav
+      Type: AudioClip
+    - Id: 15
+      DisplayName: Hellephant Hurt
+      AssetPathInUnity: Assets/SurvivalShooterAR/Artwork/AudioClips/Hellephant Hurt.wav
+      Type: AudioClip
+    - Id: 16
+      DisplayName: Hellephant Death
+      AssetPathInUnity: Assets/SurvivalShooterAR/Artwork/AudioClips/Hellephant Death.wav
+      Type: AudioClip
+    - Id: 17
+      DisplayName: Background Music
+      AssetPathInUnity: Assets/SurvivalShooterAR/Artwork/AudioClips/Background Music.mp3
+      Type: AudioClip
+    Blocks:
+    - com.Phantoms.ARMODPackageTools.Core.AlgorithmBlock
+    - com.Phantoms.ARMODPackageTools.Core.VersionBlock
+    - com.Phantoms.ARMODPackageTools.Core.ARWorldScaleBlock
+    - com.Phantoms.ARMODPackageTools.Core.ProgrammableBlock
+    - com.Phantoms.ARMODPackageTools.Core.PlaneVisualizerBlock
+    - com.Phantoms.ARMODPackageTools.Core.QualityBlock
+    SubPath: Assets/SurvivalShooterAR
+  Project:
+    Id: 0
+    DisplayName: SurvivalShooterAR
+    ProjectStatus: 1
+--- !u!114 &1790496654422121242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb353a82b4ddc4e4daf09dcc2018b54f, type: 3}
+  m_Name: Configures
+  m_EditorClassIdentifier: 
+  ARWorldScale: 1
+  Version: 0.0.5
+  Algorithm: 0
+  AlgorithmAutoStart: 1
+  PlaneDetectionMode: 1
+  ProjectName: SurvivalShooterAR
+  MainEntry: SurvivalShooterARMainEntry
+  DomainName: SurvivalShooterAR
+  ProgrammableType: 0
+  MainVisualScripting: 
+  DebugModel: 1
+  CustomPointCloudVisualizerName: 
+  CustomPlaneVisualizerName: ARDefaultPlaneVisualizer
+  AutoPlacementOfEnvironmentProbe: 0
+  MaxMovingOfTracking: 0
+  EnvironmentProbe: 0
+  LightEstimation: 0
+  CoachingOverlay: 0
+  PostProcessing: 0
+  CanInteraction: 0
+  AutoSelect: 0
+  AROcclusion: 0
+  MaximumFaceCount: 1
+  DeveloperToken: 
+  LocalizationInterval: 0
+  UseServerLocalizer: 0
+  AutoStart: 0
+  BurstMode: 1
+  StopLocalizedAfterSuccess: 1
+  EnvironmentDepthMode: 0
+  HumanSegmentationDepthMode: 0
+  HumanSegmentationStencilMode: 0
+  OcclusionPreferenceMode: 0
+  Multiplayer: 0
+  DisplayPing: 0
+  Discovery: 0
+  QualityLevel: 1

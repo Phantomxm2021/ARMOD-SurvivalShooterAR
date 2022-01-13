@@ -1,0 +1,562 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/nswell/Documents/Git/CellStudio/ARMODs/Unity/ARMOD-Examples/ARMOD-SurvivalShooterAR/ARMOD-SurvivalShooterAR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57383
+Successfully changed project path to: /Users/nswell/Documents/Git/CellStudio/ARMODs/Unity/ARMOD-Examples/ARMOD-SurvivalShooterAR/ARMOD-SurvivalShooterAR
+/Users/nswell/Documents/Git/CellStudio/ARMODs/Unity/ARMOD-Examples/ARMOD-SurvivalShooterAR/ARMOD-SurvivalShooterAR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 64.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/nswell/Documents/Git/CellStudio/ARMODs/Unity/ARMOD-Examples/ARMOD-SurvivalShooterAR/ARMOD-SurvivalShooterAR/Assets
+GfxDevice: creating device client; threaded=0
+2021-07-13 15:24:50.596 Unity[3706:172212] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2021-07-13 15:24:50.596 Unity[3706:172212] Metal devices available: 2
+2021-07-13 15:24:50.597 Unity[3706:172212] 0: AMD Radeon Pro Vega 20 (high power)
+2021-07-13 15:24:50.597 Unity[3706:172212] 1: Intel(R) UHD Graphics 630 (low power)
+2021-07-13 15:24:50.597 Unity[3706:172212] Using device AMD Radeon Pro Vega 20 (high power)
+Initializing Metal device caps: AMD Radeon Pro Vega 20
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56706
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002440 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 51.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.201 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002652 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 53.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.221 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3498 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 224.2 MB.
+System memory in use after: 221.9 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3906.
+Total: 4.448213 ms (FindLiveObjects: 0.559538 ms CreateObjectMapping: 0.314632 ms MarkObjects: 2.132188 ms  DeleteObjects: 1.440645 ms)
+
+========================================================================
+Received Import Request.
+  path: Packages/com.phantoms.actionnotificationmanager/Runtime/Data
+  artifactKey: Guid(6176e053e9f9f4e179189bbaf9508e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.phantoms.actionnotificationmanager/Runtime/Data using Guid(6176e053e9f9f4e179189bbaf9508e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079cc608c85d5e79b4faa80b938d8d1e') in 0.006455 seconds
+  Import took 0.013990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Packages/com.phantoms.actionnotificationmanager/Runtime/Data/TryAcquireAppInfoNotificationData.cs
+  artifactKey: Guid(8d8e26d97c144688bbd8b4e02cfacaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.phantoms.actionnotificationmanager/Runtime/Data/TryAcquireAppInfoNotificationData.cs using Guid(8d8e26d97c144688bbd8b4e02cfacaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9c71e4c44c3c6eff45a28a0be11bb2') in 0.342330 seconds
+  Import took 0.347693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Packages/com.phantoms.actionnotificationmanager/Runtime/Data/AROcclusionNotificationData.cs
+  artifactKey: Guid(1016e4fb6eb24ae9a59686bdf943e093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.phantoms.actionnotificationmanager/Runtime/Data/AROcclusionNotificationData.cs using Guid(1016e4fb6eb24ae9a59686bdf943e093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f903f9059b5a52c7ecfb9aec020ae05') in 0.001385 seconds
+  Import took 0.005667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Packages/com.phantoms.actionnotificationmanager/Runtime
+  artifactKey: Guid(1ab9a0d3fd8448d4880f67881b1c86e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.phantoms.actionnotificationmanager/Runtime using Guid(1ab9a0d3fd8448d4880f67881b1c86e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd597052d73a6882d4a05068af239b9e3') in 0.000815 seconds
+  Import took 0.006057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Packages/com.phantoms.actionnotificationmanager
+  artifactKey: Guid(f792c78892d368fa311ae81715090be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.phantoms.actionnotificationmanager using Guid(f792c78892d368fa311ae81715090be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada808ea5c4085ab2bae4356f966bfda') in 0.000893 seconds
+  Import took 0.006578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.307597 seconds.
+  path: Packages/com.phantoms.actionnotificationmanager/Runtime/Data/FaceMeshNotificationData.cs
+  artifactKey: Guid(38d93e2df6884f9dba6b4607489bf811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.phantoms.actionnotificationmanager/Runtime/Data/FaceMeshNotificationData.cs using Guid(38d93e2df6884f9dba6b4607489bf811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3638bee09829e5d018e515dd2cfa394') in 0.001584 seconds
+  Import took 0.006962 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010120 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of ȂāˀƑ:.ctor due to: Could not load file or assembly 'com.Phatoms.Immersal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:com.Phatoms.Immersal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Packages/com.phantoms.armodcore/Plugins/Core.ARMOD/Editor/com.Phantoms.ARAlgorithm.Runtime.dll, this assembly can cause crashes in the runtime
+
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.278 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3498 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.8 MB.
+System memory in use after: 232.5 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 3991.
+Total: 4.441963 ms (FindLiveObjects: 0.446818 ms CreateObjectMapping: 0.188221 ms MarkObjects: 2.247712 ms  DeleteObjects: 1.558062 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1060.081539 seconds.
+  path: Assets/SurvivalShooter/Scripts/Runtime/GameCores/Players/Shooting.cs
+  artifactKey: Guid(0d20c946aa86a4d6faf4dae1e4f6432a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Scripts/Runtime/GameCores/Players/Shooting.cs using Guid(0d20c946aa86a4d6faf4dae1e4f6432a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1728427ec100962b57ca818881c65e5c') in 0.009843 seconds
+  Import took 0.015729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009242 seconds.
+  path: Assets/SurvivalShooter/Scripts/Runtime/GameCores/Players/Shooting.cs
+  artifactKey: Guid(0d20c946aa86a4d6faf4dae1e4f6432a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Scripts/Runtime/GameCores/Players/Shooting.cs using Guid(0d20c946aa86a4d6faf4dae1e4f6432a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1728427ec100962b57ca818881c65e5c') in 0.001421 seconds
+  Import took 0.006288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.548058 seconds.
+  path: Assets/SurvivalShooter/Scripts/Runtime/GameCores/Players/SignProjector.cs
+  artifactKey: Guid(41b0b9c407e5d419bbf0be4d63bc2875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Scripts/Runtime/GameCores/Players/SignProjector.cs using Guid(41b0b9c407e5d419bbf0be4d63bc2875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b8f2539d4eaf54069ed4ffc45ee24e') in 0.001647 seconds
+  Import took 0.007615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.410264 seconds.
+  path: Assets/SurvivalShooter/Scripts/Runtime/GameCores/Players/Turning.cs
+  artifactKey: Guid(0e3d50f2e871c465b9e5da76cb52e5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Scripts/Runtime/GameCores/Players/Turning.cs using Guid(0e3d50f2e871c465b9e5da76cb52e5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136fc4032556ec58fb06f8aaa0591986') in 0.001764 seconds
+  Import took 0.008336 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011709 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of ȂāˀƑ:.ctor due to: Could not load file or assembly 'com.Phatoms.Immersal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:com.Phatoms.Immersal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Packages/com.phantoms.armodcore/Plugins/Core.ARMOD/Editor/com.Phantoms.ARAlgorithm.Runtime.dll, this assembly can cause crashes in the runtime
+
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.327 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3498 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.3 MB.
+System memory in use after: 233.0 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 3995.
+Total: 10.265939 ms (FindLiveObjects: 0.637973 ms CreateObjectMapping: 0.272086 ms MarkObjects: 6.065234 ms  DeleteObjects: 3.289001 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 993.405175 seconds.
+  path: Assets/SurvivalShooter/Scripts/Runtime/GameCores/Players/Turning.cs
+  artifactKey: Guid(0e3d50f2e871c465b9e5da76cb52e5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Scripts/Runtime/GameCores/Players/Turning.cs using Guid(0e3d50f2e871c465b9e5da76cb52e5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c408e611c80e21f7aad0130a14a8d77b') in 0.007392 seconds
+  Import took 0.015073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.117456 seconds.
+  path: Assets/SurvivalShooter/Scripts/Runtime/GameCores/Players/Turning.cs
+  artifactKey: Guid(0e3d50f2e871c465b9e5da76cb52e5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Scripts/Runtime/GameCores/Players/Turning.cs using Guid(0e3d50f2e871c465b9e5da76cb52e5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f76a97b8468360001857bee7e8d1d6') in 0.003351 seconds
+  Import took 0.015177 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009876 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of ȂāˀƑ:.ctor due to: Could not load file or assembly 'com.Phatoms.Immersal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:com.Phatoms.Immersal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Packages/com.phantoms.armodcore/Plugins/Core.ARMOD/Editor/com.Phantoms.ARAlgorithm.Runtime.dll, this assembly can cause crashes in the runtime
+
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.085 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3498 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.6 MB.
+System memory in use after: 233.3 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 3999.
+Total: 5.632474 ms (FindLiveObjects: 0.368539 ms CreateObjectMapping: 0.156172 ms MarkObjects: 3.334487 ms  DeleteObjects: 1.771907 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1280.905309 seconds.
+  path: Assets/SurvivalShooter/Scripts/Runtime/GameCores/Players/Turning.cs
+  artifactKey: Guid(0e3d50f2e871c465b9e5da76cb52e5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Scripts/Runtime/GameCores/Players/Turning.cs using Guid(0e3d50f2e871c465b9e5da76cb52e5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b733a9f6b1f8908771585b9cee94777') in 0.008253 seconds
+  Import took 0.014795 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008691 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of ȂāˀƑ:.ctor due to: Could not load file or assembly 'com.Phatoms.Immersal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:com.Phatoms.Immersal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Packages/com.phantoms.armodcore/Plugins/Core.ARMOD/Editor/com.Phantoms.ARAlgorithm.Runtime.dll, this assembly can cause crashes in the runtime
+
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.088 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3498 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.9 MB.
+System memory in use after: 233.6 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 4003.
+Total: 4.848740 ms (FindLiveObjects: 0.390376 ms CreateObjectMapping: 0.189623 ms MarkObjects: 2.540469 ms  DeleteObjects: 1.726993 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010502 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.133 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3526 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.7 MB.
+System memory in use after: 235.3 MB.
+
+Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 4025.
+Total: 4.357553 ms (FindLiveObjects: 0.361803 ms CreateObjectMapping: 0.170202 ms MarkObjects: 2.139736 ms  DeleteObjects: 1.684807 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.045839 seconds.
+  path: Assets/SurvivalShooter/Artwork
+  artifactKey: Guid(729b659f435b1f24ca73d560cfd6e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork using Guid(729b659f435b1f24ca73d560cfd6e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09e8de56a31cc8d6981e1a0bd9aa1f6') in 0.006545 seconds
+  Import took 0.012810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.246602 seconds.
+  path: Assets/SurvivalShooter/Artwork/Scenes
+  artifactKey: Guid(5c20415eed89fdb4e9973883ae342fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Scenes using Guid(5c20415eed89fdb4e9973883ae342fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b94e4b409d904de079f56f8f510e12') in 0.001204 seconds
+  Import took 0.009212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.945572 seconds.
+  path: Assets/SurvivalShooter/Artwork/Scenes/SurivalShooter.lighting
+  artifactKey: Guid(7cf9220214005458cbb3a026e68e12a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Scenes/SurivalShooter.lighting using Guid(7cf9220214005458cbb3a026e68e12a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7730738c6e6be809dbfe864f98ddba6b') in 1.048489 seconds
+  Import took 1.056603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.839588 seconds.
+  path: Assets/SurvivalShooter/Artwork/Scenes/Player And Enemy Testing.unity
+  artifactKey: Guid(50346df580f09b64d8a92f1e326c3425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Scenes/Player And Enemy Testing.unity using Guid(50346df580f09b64d8a92f1e326c3425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d1a9e05a564a6342a701272fe010aa') in 0.002123 seconds
+  Import took 0.008158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001937 seconds.
+  path: Assets/SurvivalShooter/Artwork/Scenes/Player And Enemy Testing.unity
+  artifactKey: Guid(50346df580f09b64d8a92f1e326c3425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Scenes/Player And Enemy Testing.unity using Guid(50346df580f09b64d8a92f1e326c3425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d1a9e05a564a6342a701272fe010aa') in 0.001109 seconds
+  Import took 0.005904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.538020 seconds.
+  path: Assets/SurvivalShooter/Artwork/Scenes/CharacterRender.unity
+  artifactKey: Guid(8c003ba017689447a891046c4c989c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Scenes/CharacterRender.unity using Guid(8c003ba017689447a891046c4c989c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8017a52aff3c21e1db512b58f1d712') in 0.002932 seconds
+  Import took 0.009969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.609285 seconds.
+  path: Assets/SurvivalShooter/Artwork/Textures/fireplace_1k.hdr
+  artifactKey: Guid(a6b4aacc1861a4b45b7bb419edb50972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Textures/fireplace_1k.hdr using Guid(a6b4aacc1861a4b45b7bb419edb50972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac4bf0e133a9fcc9e877b413055c1ec') in 1.677393 seconds
+  Import took 1.682679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 334.098048 seconds.
+  path: Assets/SurvivalShooter/Artwork/Materials/FlareParticleMaterial.mat
+  artifactKey: Guid(b75a561f374f89247a62336b50288d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Materials/FlareParticleMaterial.mat using Guid(b75a561f374f89247a62336b50288d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8aa7133a76b25ab84f1240369446e0') in 0.621495 seconds
+  Import took 0.628350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.920278 seconds.
+  path: Assets/SurvivalShooter/Artwork/Meshes/Environment/SpinningTop.fbx
+  artifactKey: Guid(f3ae2f327b1ccba488153e136bd96969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Meshes/Environment/SpinningTop.fbx using Guid(f3ae2f327b1ccba488153e136bd96969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ae11298296ddc99c77a32ce676188d') in 0.631055 seconds
+  Import took 0.637553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.032877 seconds.
+  path: Assets/SurvivalShooter/Artwork/Meshes/Environment/SpinningTop.fbx
+  artifactKey: Guid(f3ae2f327b1ccba488153e136bd96969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Meshes/Environment/SpinningTop.fbx using Guid(f3ae2f327b1ccba488153e136bd96969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53c82bed594ff457e4604303a1581d2') in 0.020199 seconds
+  Import took 0.026230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040873 seconds.
+  path: Assets/SurvivalShooter/Artwork/Meshes/Environment/SpinningTop.fbx
+  artifactKey: Guid(f3ae2f327b1ccba488153e136bd96969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Meshes/Environment/SpinningTop.fbx using Guid(f3ae2f327b1ccba488153e136bd96969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53c82bed594ff457e4604303a1581d2') in 0.024685 seconds
+  Import took 0.031644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.979028 seconds.
+  path: Assets/SurvivalShooter/Artwork/Meshes/Environment/Dollhouse.fbx
+  artifactKey: Guid(eec0a941ebb666b458f6523bd925c87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Meshes/Environment/Dollhouse.fbx using Guid(eec0a941ebb666b458f6523bd925c87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e7f2b70cbbf408de8033dbbffc237b') in 0.392512 seconds
+  Import took 0.398514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.782626 seconds.
+  path: Assets/SurvivalShooter/Artwork/Meshes/Environment/Bat.fbx
+  artifactKey: Guid(9f185e9167e4f99489912e1b6d9899bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Meshes/Environment/Bat.fbx using Guid(9f185e9167e4f99489912e1b6d9899bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba49b2ef32adac6f566f12ab70d25e77') in 0.019640 seconds
+  Import took 0.025432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.342129 seconds.
+  path: Assets/SurvivalShooter/Artwork/Meshes/Environment/Arches.fbx
+  artifactKey: Guid(83ce4d1897bf5de438ba201190387a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Meshes/Environment/Arches.fbx using Guid(83ce4d1897bf5de438ba201190387a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd5409fed6d49766abe1d2e6348fbc5') in 0.338701 seconds
+  Import took 0.344048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.600577 seconds.
+  path: Assets/SurvivalShooter/Artwork/Meshes/Environment/Arches.fbx
+  artifactKey: Guid(83ce4d1897bf5de438ba201190387a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Meshes/Environment/Arches.fbx using Guid(83ce4d1897bf5de438ba201190387a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18735509f028186df28b3719dc0fd56') in 0.019192 seconds
+  Import took 0.025543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1141.381902 seconds.
+  path: Assets/SurvivalShooter/Artwork/Prefabs/SurvivalShooter.prefab
+  artifactKey: Guid(84e387bcc3c624262aaab1c4993451e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Prefabs/SurvivalShooter.prefab using Guid(84e387bcc3c624262aaab1c4993451e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7872fa1cd61eed2904e5e43e736343') in 0.685221 seconds
+  Import took 0.700264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.896427 seconds.
+  path: Assets/SurvivalShooter/Artwork/Prefabs/SurvivalShooter_Small.prefab
+  artifactKey: Guid(84e387bcc3c624262aaab1c4993451e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Prefabs/SurvivalShooter_Small.prefab using Guid(84e387bcc3c624262aaab1c4993451e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d1f6846ece3eb5ce00ad910656a801') in 0.073483 seconds
+  Import took 0.082357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.398615 seconds.
+  path: Assets/SurvivalShooter/Artwork/Prefabs/SurvivalShooter Variant.prefab
+  artifactKey: Guid(9c866171e48724679a84afd9a5bafa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Prefabs/SurvivalShooter Variant.prefab using Guid(9c866171e48724679a84afd9a5bafa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af1c707c4b0e3c1ff9ffbf90084bfa4') in 0.094710 seconds
+  Import took 0.106466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.429388 seconds.
+  path: Assets/SurvivalShooter/Artwork/Prefabs/SurvivalShooter.prefab
+  artifactKey: Guid(9c866171e48724679a84afd9a5bafa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Prefabs/SurvivalShooter.prefab using Guid(9c866171e48724679a84afd9a5bafa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6b4b7c865cb3cc904c69f5caf34932') in 0.075592 seconds
+  Import took 0.085601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1168.016710 seconds.
+  path: Assets/SurvivalShooter/Artwork/Prefabs/ZomBunny.prefab
+  artifactKey: Guid(b2b7542df5f90b14187a6bb47ab5c582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Prefabs/ZomBunny.prefab using Guid(b2b7542df5f90b14187a6bb47ab5c582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e82372a24ac589f0e7149b20e3383c') in 0.933885 seconds
+  Import took 0.944836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.464300 seconds.
+  path: Assets/SurvivalShooter/Artwork/Prefabs/ZomBear.prefab
+  artifactKey: Guid(5d2a4f60ffd093b4b85a4a45cd99e38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Prefabs/ZomBear.prefab using Guid(5d2a4f60ffd093b4b85a4a45cd99e38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a85cf2a7f0a11e2b5a566159e0704ab') in 0.034566 seconds
+  Import took 0.043890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.378372 seconds.
+  path: Assets/SurvivalShooter/Artwork/Prefabs/SurvivalShooter_Small.prefab
+  artifactKey: Guid(84e387bcc3c624262aaab1c4993451e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Prefabs/SurvivalShooter_Small.prefab using Guid(84e387bcc3c624262aaab1c4993451e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a082db755d1bb0c06b50a214250b37') in 0.295194 seconds
+  Import took 0.306855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.518512 seconds.
+  path: Assets/SurvivalShooter/Artwork/Prefabs/Player.prefab
+  artifactKey: Guid(4bd0dc178253fc344b4052ddbc60de6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Prefabs/Player.prefab using Guid(4bd0dc178253fc344b4052ddbc60de6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab51c4ff564194dcd0834722470eb23b') in 0.028327 seconds
+  Import took 0.036131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.502591 seconds.
+  path: Assets/SurvivalShooter/Artwork/Prefabs/MoveableTop.prefab
+  artifactKey: Guid(9ec1577ea4e354b3aaff030df446b71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Prefabs/MoveableTop.prefab using Guid(9ec1577ea4e354b3aaff030df446b71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00f8383dd8f867d15328132e30d15dc') in 0.020337 seconds
+  Import took 0.028086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.421495 seconds.
+  path: Assets/SurvivalShooter/Artwork/Prefabs/Hellephant.prefab
+  artifactKey: Guid(fb5e9f8e925fa0d488be207f213bb8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Prefabs/Hellephant.prefab using Guid(fb5e9f8e925fa0d488be207f213bb8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af5c67c00ca64691d7fa878c7078a1e') in 0.397071 seconds
+  Import took 0.406006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.770584 seconds.
+  path: Assets/SurvivalShooter/Artwork/Prefabs/ZomBear.prefab
+  artifactKey: Guid(5d2a4f60ffd093b4b85a4a45cd99e38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Prefabs/ZomBear.prefab using Guid(5d2a4f60ffd093b4b85a4a45cd99e38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85e12c6d967612196f2caa7f43f2c9b') in 0.026530 seconds
+  Import took 0.035421 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 21.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 81 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.6 MB.
+System memory in use after: 223.2 MB.
+
+Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 4140.
+Total: 16.940080 ms (FindLiveObjects: 0.613824 ms CreateObjectMapping: 0.267794 ms MarkObjects: 14.069718 ms  DeleteObjects: 1.986710 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 6.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 81 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.6 MB.
+System memory in use after: 223.3 MB.
+
+Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 4140.
+Total: 6.285771 ms (FindLiveObjects: 0.430704 ms CreateObjectMapping: 0.205282 ms MarkObjects: 3.565433 ms  DeleteObjects: 2.083107 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3359.705475 seconds.
+  path: Assets/SurvivalShooter/Artwork/Textures/Environments/RobotNormals.png
+  artifactKey: Guid(63afb82f72573664786156bd5b087e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalShooter/Artwork/Textures/Environments/RobotNormals.png using Guid(63afb82f72573664786156bd5b087e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6145860488779137248be18696ee3284') in 1.046266 seconds
+  Import took 1.059634 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

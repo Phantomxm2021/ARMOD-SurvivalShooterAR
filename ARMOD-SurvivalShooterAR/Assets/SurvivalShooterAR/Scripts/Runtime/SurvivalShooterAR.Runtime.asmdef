@@ -1,0 +1,21 @@
+{
+    "name": "SurvivalShooterAR.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "com.Phantoms.ARMODAPI.Runtime",
+        "com.Phantoms.PackageTools.Runtime",
+        "com.Phantoms.ActionNotification.Runtime",
+        "Mirror",
+        "com.PhantomsXR.MirrorExtension.Runtime",
+        "NavMeshComponents"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
