@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SurvivalShooterAR
+namespace SurvivalShooterAR.Runtime
 {
     public class EnemyTag:BaseTag
     {

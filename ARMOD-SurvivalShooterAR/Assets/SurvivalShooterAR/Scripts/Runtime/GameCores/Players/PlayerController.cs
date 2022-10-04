@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using com.Phantoms.ActionNotification.Runtime;
 using UnityEngine;
 
-namespace SurvivalShooterAR
+namespace SurvivalShooterAR.Runtime
 {
     public class PlayerController : AbstractGameState
     {

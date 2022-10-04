@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace SurvivalShooterAR
+namespace SurvivalShooterAR.Runtime
 {
     public enum JoystickType : int
     {
@@ -20,6 +20,10 @@ namespace SurvivalShooterAR
         private Transform player;
         private Transform camTrans;
 
+        void Start()
+        {
+            
+        }
         private void Awake()
         {
             MaxRadius = 100;

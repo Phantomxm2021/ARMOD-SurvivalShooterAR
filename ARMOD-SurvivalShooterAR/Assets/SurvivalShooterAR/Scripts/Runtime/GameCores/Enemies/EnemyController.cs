@@ -3,7 +3,7 @@ using com.Phantoms.ActionNotification.Runtime;
 using UnityEngine;
 using UnityEngine.AI;
 
-namespace SurvivalShooterAR
+namespace SurvivalShooterAR.Runtime
 {
     public class EnemyController : AbstractGameState
     {

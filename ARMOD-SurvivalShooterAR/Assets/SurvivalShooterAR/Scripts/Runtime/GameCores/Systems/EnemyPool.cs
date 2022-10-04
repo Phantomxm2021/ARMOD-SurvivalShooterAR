@@ -4,7 +4,7 @@ using UnityEngine;
 using Object = UnityEngine.Object;
 using Random = UnityEngine.Random;
 
-namespace SurvivalShooterAR
+namespace SurvivalShooterAR.Runtime
 {
     public class PoolConfig : IDisposable
     {

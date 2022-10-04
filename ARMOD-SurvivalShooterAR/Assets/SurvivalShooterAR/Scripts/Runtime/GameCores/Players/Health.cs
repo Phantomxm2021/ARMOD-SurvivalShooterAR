@@ -2,7 +2,7 @@ using System;
 using com.Phantoms.ActionNotification.Runtime;
 using UnityEngine;
 
-namespace SurvivalShooterAR
+namespace SurvivalShooterAR.Runtime
 {
     public class Health : MonoBehaviour
     {

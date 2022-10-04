@@ -3,7 +3,7 @@ using com.Phantoms.ActionNotification.Runtime;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace SurvivalShooterAR
+namespace SurvivalShooterAR.Runtime
 {
     public class UISystem : AbstractGameState
     {
@@ -12,12 +12,12 @@ namespace SurvivalShooterAR
         public GameObject GameOverView;
         public GameObject SlamView;
 
-        internal Button startGameButton;
-        internal Button placedButton;
+        public Button startGameButton;
+        public Button placedButton;
 
-        internal Text healthText;
-        internal Text aliveTimeText;
-        internal Button closeButton;
+        public Text healthText;
+        public Text aliveTimeText;
+        public Button closeButton;
 
         private void Start()
         {
@@ -26,7 +26,7 @@ namespace SurvivalShooterAR
                 StartView.SetActive(false);
                 SlamView.SetActive(true);
             });
-            closeButton.onClick.AddListener(()=>{SurvivalShooterARMainEntry.API.ExitAR();});
+            closeButton.onClick.AddListener(()=>{SurvivalShooterARMainEntry.API.Exit();});
             placedButton.onClick.AddListener(() =>
             {
                 ActionNotificationCenter.DefaultCenter.PostNotification("PlaceVirtualObject",null);

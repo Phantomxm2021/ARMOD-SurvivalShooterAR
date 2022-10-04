@@ -6,7 +6,7 @@ using UnityEngine.Assertions;
 using Object = UnityEngine.Object;
 using Random = UnityEngine.Random;
 
-namespace SurvivalShooterAR 
+namespace SurvivalShooterAR.Runtime 
 {
     public class SurvivalShooterARMainEntry
     {
@@ -53,7 +53,9 @@ namespace SurvivalShooterAR
             var tmp_EnvironmentPrefab = await API.LoadAssetAsync<GameObject>(ConstKey.CONST_PROJECT_NAME);
             environmentGameObject = UnityEngine.Object.Instantiate(tmp_EnvironmentPrefab);
             contentTrans = environmentGameObject.transform;
-
+            
+            //environmentGameObject.gameObject.AddComponent<InputSystem>();
+            
             //load canvas group
             var tmp_CanvasPrefab = await API.LoadAssetAsync<GameObject>(ConstKey.CONST_CANVAS_GROUP);
             canvas = Object.Instantiate(tmp_CanvasPrefab);

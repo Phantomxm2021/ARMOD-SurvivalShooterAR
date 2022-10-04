@@ -1,4 +1,4 @@
-namespace SurvivalShooterAR
+namespace SurvivalShooterAR.Runtime
 {
     public class ConstKey
     {

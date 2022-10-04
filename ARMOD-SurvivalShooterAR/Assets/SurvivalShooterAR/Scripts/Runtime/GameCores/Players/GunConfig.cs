@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SurvivalShooterAR
+namespace SurvivalShooterAR.Runtime
 {
     [System.Serializable]
     public class GunConfig

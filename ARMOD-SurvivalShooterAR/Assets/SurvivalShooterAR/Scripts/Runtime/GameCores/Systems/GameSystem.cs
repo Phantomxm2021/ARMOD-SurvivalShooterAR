@@ -1,7 +1,7 @@
 using com.Phantoms.ActionNotification.Runtime;
 using UnityEngine.AI;
 
-namespace SurvivalShooterAR
+namespace SurvivalShooterAR.Runtime
 {
     public class GameSystem : AbstractGameState
     {

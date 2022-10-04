@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace SurvivalShooterAR
+namespace SurvivalShooterAR.Runtime
 {
     public class Helper : MonoBehaviour
     {

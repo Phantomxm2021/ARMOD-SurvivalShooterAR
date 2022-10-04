@@ -4,13 +4,13 @@ using com.Phantoms.ActionNotification.Runtime;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace SurvivalShooterAR
+namespace SurvivalShooterAR.Runtime
 {
     public class InputSystem : AbstractGameState
     {
         public Vector3 GetInputAxis = Vector3.zero;
         public Vector3 LookPosition = Vector3.zero;
-        public Action Shooting;
+        internal Action Shooting;
 
         private List<JoystickSystem> joystickSystems;
 

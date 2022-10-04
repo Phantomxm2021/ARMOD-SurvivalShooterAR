@@ -2,7 +2,7 @@ using com.Phantoms.ActionNotification.Runtime;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace SurvivalShooterAR
+namespace SurvivalShooterAR.Runtime
 {
     public class EnemySpawnSystem : AbstractGameState
     {
