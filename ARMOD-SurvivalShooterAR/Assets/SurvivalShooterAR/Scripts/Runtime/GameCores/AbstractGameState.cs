@@ -1,9 +1,10 @@
 using com.Phantoms.ActionNotification.Runtime;
 using UnityEngine;
+using XRMODEngineCore.Runtime;
 
 namespace SurvivalShooterAR.Runtime
 {
-    public abstract class AbstractGameState : MonoBehaviour
+    public abstract class AbstractGameState : XRMODBehaviour
     {
         public abstract void GameInit(BaseNotificationData _data);
         public abstract void GameStart(BaseNotificationData _data);

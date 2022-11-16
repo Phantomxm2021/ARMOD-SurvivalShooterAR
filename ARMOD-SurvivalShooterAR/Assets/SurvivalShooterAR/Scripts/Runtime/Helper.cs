@@ -1,9 +1,10 @@
 using System;
 using UnityEngine;
+using XRMODEngineCore.Runtime;
 
 namespace SurvivalShooterAR.Runtime
 {
-    public class Helper : MonoBehaviour
+    public class Helper : XRMODBehaviour
     {
         public static T GetComponent<T>(Type _type, GameObject _target)
         {

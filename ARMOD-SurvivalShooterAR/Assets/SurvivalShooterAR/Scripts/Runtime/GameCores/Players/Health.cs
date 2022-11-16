@@ -1,10 +1,11 @@
 using System;
 using com.Phantoms.ActionNotification.Runtime;
 using UnityEngine;
+using XRMODEngineCore.Runtime;
 
 namespace SurvivalShooterAR.Runtime
 {
-    public class Health : MonoBehaviour
+    public class Health : XRMODBehaviour
     {
         public int currentHealth = 100;
         public AudioSource audioSource = null;

@@ -1,30 +1,30 @@
 {
   "dependencies": {
     "com.phantomsxr.actionnotification": {
-      "version": "2.0.0-preview.2",
+      "version": "2.0.0-preview.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://registry.npmjs.org"
     },
     "com.phantomsxr.armodapi": {
-      "version": "2.0.0-preview.2",
+      "version": "2.0.0-preview.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.phantomsxr.armodpackagetools": "1.1.6",
-        "com.phantomsxr.actionnotification": "2.0.0-preview.2",
-        "com.unity.render-pipelines.universal": "12.1.6"
+        "com.phantomsxr.armodpackagetools": "1.2.0",
+        "com.phantomsxr.actionnotification": "2.0.0-preview.3",
+        "com.unity.render-pipelines.universal": "12.1.7"
       },
       "url": "https://registry.npmjs.org"
     },
     "com.phantomsxr.armodpackagetools": {
-      "version": "1.1.6",
-      "depth": 2,
+      "version": "1.2.0",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.scriptablebuildpipeline": "1.20.1",
-        "com.phantomsxr.webrequestextension": "1.0.0",
+        "com.phantomsxr.webrequestextension": "2.0.0",
         "com.unity.xr.arfoundation": "5.0.2",
         "com.unity.xr.arkit": "5.0.2",
         "com.unity.xr.arkit-face-tracking": "5.0.2",
@@ -41,37 +41,40 @@
       "url": "https://registry.npmjs.org"
     },
     "com.phantomsxr.armodsimulator": {
-      "version": "1.0.0-preview.6",
+      "version": "1.0.0-preview.8",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.phantomsxr.armodpackagetools": "1.0.0-preview.5",
-        "com.phantomsxr.webrequestextension": "1.0.0-preview.2",
-        "com.unity.scriptablebuildpipeline": "1.14.1"
+        "com.phantomsxr.armodpackagetools": "1.2.0",
+        "com.phantomsxr.webrequestextension": "2.0.0",
+        "com.unity.scriptablebuildpipeline": "1.20.1"
       },
       "url": "https://registry.npmjs.org"
     },
     "com.phantomsxr.foundation": {
-      "version": "2.0.0-preview.10",
+      "version": "2.0.0-preview.12",
       "depth": 1,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.phantomsxr.ilcore": "2.0.0-preview.12"
+      },
       "url": "https://registry.npmjs.org"
     },
     "com.phantomsxr.ilcore": {
-      "version": "file:/Users/nswell/Documents/PhantomsXR/Projects/ARMODs/Unity/ARMOD-SDK/ARMOD-DevelopmentKit/Packages/com.phantomsxr.ilcore",
+      "version": "2.0.0-preview.12",
       "depth": 0,
-      "source": "local",
+      "source": "registry",
       "dependencies": {
-        "com.phantomsxr.actionnotification": "2.0.0-preview.1",
-        "com.phantomsxr.armodpackagetools": "1.1.1",
-        "com.phantomsxr.armodapi": "2.0.0-preview.2",
+        "com.phantomsxr.actionnotification": "2.0.0-preview.3",
+        "com.phantomsxr.armodpackagetools": "1.2.0",
+        "com.phantomsxr.armodapi": "2.0.0-preview.3",
         "com.phantomsxr.mirrorextension": "2.0.0-preview.1",
         "com.unity.xr.interaction.toolkit": "2.1.1"
-      }
+      },
+      "url": "https://registry.npmjs.org"
     },
     "com.phantomsxr.immersalsdk": {
-      "version": "1.2.7",
+      "version": "1.3.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -89,25 +92,25 @@
       "url": "https://registry.npmjs.org"
     },
     "com.phantomsxr.webrequestextension": {
-      "version": "1.0.0",
+      "version": "2.0.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://registry.npmjs.org"
     },
     "com.phantomsxr.xrmod.handheldar": {
-      "version": "2.0.0-preview.10",
+      "version": "2.0.0-preview.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.phantomsxr.actionnotification": "2.0.0-preview.2",
-        "com.phantomsxr.armodpackagetools": "1.1.5",
-        "com.phantomsxr.webrequestextension": "1.0.0",
+        "com.phantomsxr.actionnotification": "2.0.0-preview.3",
+        "com.phantomsxr.armodpackagetools": "1.2.0",
+        "com.phantomsxr.webrequestextension": "2.0.0",
         "com.phantomsxr.armodrenderingassistant": "1.0.0",
         "com.phantomsxr.mirrorextension": "2.0.0-preview.1",
-        "com.phantomsxr.foundation": "2.0.0-preview.10",
-        "com.phantomsxr.immersalsdk": "1.2.7",
-        "com.phantomsxr.ilcore": "2.0.0-preview.9",
+        "com.phantomsxr.foundation": "2.0.0-preview.12",
+        "com.phantomsxr.immersalsdk": "1.3.0",
+        "com.phantomsxr.ilcore": "2.0.0-preview.12",
         "com.unity.xr.arfoundation": "5.0.2",
         "com.unity.xr.arkit": "5.0.2",
         "com.unity.xr.arcore": "5.0.2"
@@ -115,22 +118,21 @@
       "url": "https://registry.npmjs.org"
     },
     "com.phantomsxr.xrmodenginesettings": {
-      "version": "1.0.0-preview.5",
+      "version": "1.0.0-preview.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.phantomsxr.armodapi": "2.0.0-preview.1",
-        "com.phantomsxr.armodpackagetools": "1.1.5",
-        "com.phantomsxr.actionnotification": "2.0.0-preview.2",
+        "com.phantomsxr.armodpackagetools": "1.2.0",
+        "com.phantomsxr.actionnotification": "2.0.0-preview.3",
         "com.phantomsxr.armodrenderingassistant": "1.0.1",
-        "com.phantomsxr.immersalsdk": "1.2.7",
-        "com.phantomsxr.webrequestextension": "1.0.0"
+        "com.phantomsxr.immersalsdk": "1.3.0",
+        "com.phantomsxr.webrequestextension": "2.0.0"
       },
       "url": "https://registry.npmjs.org"
     },
     "com.unity.burst": {
       "version": "1.7.3",
-      "depth": 3,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.2.1"
@@ -138,7 +140,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "1.15.12",
+      "version": "1.17.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -161,7 +163,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.12",
+      "version": "3.0.15",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -170,7 +172,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.14",
+      "version": "2.0.16",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -186,7 +188,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.4.2",
+      "version": "1.4.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -210,7 +212,7 @@
     },
     "com.unity.render-pipelines.core": {
       "version": "12.1.7",
-      "depth": 3,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
@@ -220,7 +222,7 @@
     },
     "com.unity.render-pipelines.universal": {
       "version": "12.1.7",
-      "depth": 2,
+      "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
@@ -238,13 +240,13 @@
     },
     "com.unity.searcher": {
       "version": "4.9.1",
-      "depth": 4,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.services.core": {
-      "version": "1.4.2",
+      "version": "1.5.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -256,7 +258,7 @@
     },
     "com.unity.shadergraph": {
       "version": "12.1.7",
-      "depth": 3,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.render-pipelines.core": "12.1.7",
@@ -273,7 +275,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.29",
+      "version": "1.1.31",
       "depth": 0,
       "source": "registry",
       "dependencies": {

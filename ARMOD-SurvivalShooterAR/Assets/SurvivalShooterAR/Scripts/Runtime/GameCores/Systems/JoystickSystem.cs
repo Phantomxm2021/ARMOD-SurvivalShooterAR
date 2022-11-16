@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
+using XRMODEngineCore.Runtime;
 
 namespace SurvivalShooterAR.Runtime
 {
@@ -10,7 +11,7 @@ namespace SurvivalShooterAR.Runtime
         Turning
     }
 
-    public class JoystickSystem : MonoBehaviour
+    public class JoystickSystem : UIMonoBehaviour
     {
         public Vector2 Direction;
         private RectTransform joystickHandlerRectTransform;
